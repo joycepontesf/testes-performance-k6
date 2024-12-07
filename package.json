@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@types/k6": "^0.54.2",
+    "babel-loader": "^9.2.1",
+    "core-js": "^3.39.0",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "pretest": "webpack",
+    "test": "k6 run dist/user.test.js"
+  },  
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
