@@ -1,6 +1,21 @@
 {
-    "access": {
-        "user": "admin",
-        "password": "admin"
-    }
+  "access": {
+    "user": "admin",
+    "password": "admin"
+  },
+  "product": {
+    "name": "Test Product",
+    "itemPrice": 19.99,
+    "description": "This is a test product"
+  },
+  "customer": {
+    "id": 1.0,
+    "firstName": "Test",
+    "lastName": "Customer",
+    "email": "test@example.com",
+    "phone": "12934567890"
+  },
+  "produtId": {
+    "id": "cm5se67ue01vsi4vjp40flxqq"
+  }
 }
